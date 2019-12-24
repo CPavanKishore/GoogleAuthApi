@@ -46,8 +46,8 @@ namespace WebApplication1
             .AddGoogle("Google", options =>
             {
                 options.CallbackPath = new PathString("/api/login/callback");
-                options.ClientId = "552388567033-2670ukited4emrhceoqgj80ekoc3denp.apps.googleusercontent.com";
-                options.ClientSecret = "rCIoyhFdNcc0gNV6Q3FR9tiR";
+                options.ClientId = "";
+                options.ClientSecret = "";
                 options.Events = new OAuthEvents
                 {
                     OnRemoteFailure = (RemoteFailureContext context) =>
