@@ -37,8 +37,8 @@ namespace GoogleAuth
                 IConfigurationSection googleAuthNSection =
                     Configuration.GetSection("Authentication:Google");
 
-                options.ClientId = "477722187620-bh3bp7e967gggnhohekitg5h1ukuuani.apps.googleusercontent.com";
-                options.ClientSecret = "qN4oEzGtVLdLcUu2YCO6UY-v";
+                options.ClientId = "";
+                options.ClientSecret = "-v";
             });
 
             // Add application services.
